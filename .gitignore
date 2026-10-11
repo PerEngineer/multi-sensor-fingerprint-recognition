@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Biometric data and generated manifests
+Multi-Sensor Fingerprint Database/
+data/
+datasets/
+splits/
+
+# Training outputs, weights and logs
+outputs/
+checkpoints/
+runs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.npy
+*.npz
+*.log
+
+# Reports and personal documents
+*.doc
+*.docx
+~$*
